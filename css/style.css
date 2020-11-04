@@ -1,0 +1,42 @@
+/* Web Fonts -------------------- */
+
+ /* Base Styles -------------------- */
+ * {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid grey 1px;
+    padding: 5px;
+  }
+
+  .title,
+  h1 {  
+    font-size: 2rem; 
+    color: purple;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.3; 
+    margin: 12px 0 0;
+  }
+ /* Pseudo-classes ------------------ */ 
+ 
+ /* Main Styles --------------------- */
+  
+ .main-header {
+    padding-top: 100pxpx;
+    height: 850px;
+    background: url('img/wildflowers-background.jpg') no-repeat center;
+    background-size: cover;
+  }
+
+  /* Layout Styles ------------------ */
+
+  /* Floated Columns ------------------ */
+
+  /* Float Clearfix ------------------ */
+  .clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+  /* Media Queries -------------------- */
