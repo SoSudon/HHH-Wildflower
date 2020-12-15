@@ -26,7 +26,7 @@ const flowers = [
         photo: 'img/f-downy-skullcap.jpg',     
         name: 'Scutellaria Incana',
         commonName: 'Downy Skullcap',
-        bloomTime: 'June, July, August, September<'
+        bloomTime: 'June, July, August, September'
     },
     {
         photo: 'img/f-great-Lobelia.jpg',     
@@ -98,7 +98,7 @@ const flowers = [
         photo: 'img/s-spiderwort.jpg',     
         name: 'Tradescantia Virginiana',
         commonName: 'Spiderwort',
-        bloomTime: 'March, April, May, June, July, August<'
+        bloomTime: 'March, April, May, June, July, August'
     },
     {
         photo: 'img/s-virginia-bluebells.jpg',     
@@ -108,7 +108,7 @@ const flowers = [
     },
     {
         photo: 'img/s-virginia-waterleaf.jpg',     
-        name: 'Hydrophyllum Virginianum<',
+        name: 'Hydrophyllum Virginianum',
         commonName: 'Wirginia Waterleaf',
         bloomTime: 'May, June'
     },
@@ -116,7 +116,7 @@ const flowers = [
         photo: 'img/s-wild-columbine.jpg',     
         name: 'Aquilegia Canadensis',
         commonName: 'Wild Columbine',
-        bloomTime: 'February, March, April, May, June, July<'
+        bloomTime: 'February, March, April, May, June, July'
     },
     {
         photo: 'img/s-wild-geranium.jpg',     

@@ -1,16 +1,14 @@
 /* Base Styles -------------------- */
-* {
+*,*::before, *::after {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Lucida Bright', 'Hoefler Text', 'Baskerville';
-  line-height: 1.6;
   color: black;
   text-align: center;
   display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  flex-direction: column;  
 }
 
 ul {
@@ -33,7 +31,7 @@ h1 {
 
 h2 {
   color: black;
-  font-size: 2rem;
+  font-size: 2em;
   padding-top: 15px;
 }
 
@@ -126,22 +124,19 @@ a {
   margin: 5px;
   padding: 2px;
   border: solid 1px peachpuff;
-  float: left;
+  float: center;
  }
 
  .list{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  
   margin: auto;
-  justify-content: space-around;
-  
+  justify-content: space-around;  
  }
 
  .item {  
-  flex-grow: 1;
-  width: 500px;
-  height: 175px;
-  margin: 1rem;
+  margin: 5px 5px;
+  overflow: auto;
   border: solid grey 2px;
  }
 
@@ -165,7 +160,15 @@ a {
   .columns {
 		display: flex;
   }
+
+  .flower-img {
+    float: left;
+   }
   
+  .item {
+    min-width: 500px;
+    }
+
 	.main-header {
 		flex-direction: column;
 		align-items: center;
@@ -186,6 +189,7 @@ a {
 		flex-direction: row;
 		justify-content: space-between;
   }
-
   
 } 
+
+
