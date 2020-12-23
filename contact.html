@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width" initial-scale=1.0">
   </head>
 
-  <body> 
+  <body>     
     <header class="main-header">
       <h1 class="title">HHH Wildflower</h1>         
         <ul class="main-nav">
@@ -16,39 +16,43 @@
           <li><a href="flowers.html">Flowers</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </header>
+    </header>    
 
-        <h1> Join Me on My Flower Journey </h1>
-        <p>Look around your surrounding and sharing what you find! If would you like to add your finding to this website, please send me </p>
-    <form action="contact.html" method="POST">
-      <fieldset>
-        <legend>Put your info</legend>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name"><br>
-        <label for="email" id="email" name="user_email">Email:</label>
-        <input type="email" id="email" name="user_email"><br>
-      </fieldset>
+    <div class="backcover">
+      <h1 id="join"> Join Me on My Flower Journey </h1>
+      <h3 > Look around your surrounding and sharing what you find!</h3>
+      <h3> If would you like to add your finding to this website, please contact Me!</h3>
 
-      <fieldset>
-        <label for="attachment">Attachment</label><br>
-        <input type="file" id="file" name="user_file"><br>
-      </fieldset>
+      <form action="contact.html" method="POST">
+        <fieldset>
+          <legend>Put your info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name"><br>
+          <label for="email" id="email" name="user_email">Email:</label>
+          <input type="email" id="email" name="user_email"><br>
+        </fieldset>
 
-      <fieldset>
-        <label for="information">information</label><br>
-        <textarea type="text" id="information" name="user_bio"></textarea><br>
-      </fieldset>
+        <fieldset>
+          <label for="attachment">Attachment</label><br>
+          <input type="file" id="file" name="user_file"><br>
+        </fieldset>
 
-      <fieldset>
-        <button type="submit">Submit</button>
-      </fieldset>
-    </form>
+        <fieldset>
+          <label for="information">Information : Tell me about where and when you find this beauty</label><br>
+          <textarea type="text" id="information" name="user_bio" ></textarea><br>
+        </fieldset>
 
-  <footer>
-    <div class="main-footer">
-      <span>&copy;2020 HHH Wildflower</span>
+        <fieldset>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
     </div>
-  </footer>
+
+    <footer>
+      <div class="main-footer">
+        <span>&copy;2020 HHH Wildflower</span>
+     </div>
+   </footer>
 
   </body>
 </html>

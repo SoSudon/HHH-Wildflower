@@ -39,9 +39,13 @@ a {
   text-decoration: none;
 }
 
+.main-footer {
+  color: white;
+}
 /* ---- Navigation ---- */
 
-.main-header {
+header,
+footer {
   background-color: black;
   margin: 0;  
   }
@@ -140,9 +144,31 @@ a {
   border: solid grey 2px;
  }
 
+ #join,
  #flowers {
    color: Black;
+   font-size: 2em;
  }
+
+  /* Contact ------------------ */
+
+  form {
+    width: 90%;
+    margin: auto;
+  }
+
+  #name,
+  #email,
+  #file,
+  #information {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #information {
+    width: 70%;
+    height: 17em;
+  }
 
 /* Layout Styles ------------------ */
 
@@ -187,9 +213,18 @@ a {
 
 	.main-header {
 		flex-direction: row;
-		justify-content: space-between;
+    justify-content: space-between;
   }
   
+  form {
+    width: 60%;
+  }   
+
+  .backcover {
+    background: url("../img/flower-background--light-cream-floral.jpg");
+    background-size: cover;
+  }
+
 } 
 
 
