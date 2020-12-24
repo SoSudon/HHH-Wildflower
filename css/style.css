@@ -18,7 +18,7 @@ ul {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5em;;
 }
 
@@ -73,7 +73,7 @@ footer {
 }
 
 .banner {
-  height: 850px;
+  height: 750px;
   background: ivory url("../img/flower-hand-hold-river-preview.jpg") no-repeat center;
   background-size: cover;
 } 
@@ -83,6 +83,7 @@ footer {
 .about {
   width:80%;  
   margin: auto;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -91,7 +92,7 @@ footer {
   flex-wrap: wrap;
   margin: auto;
   justify-content: space-around;
-  }
+}
 
 .col {
   flex-grow: 1;
@@ -105,7 +106,7 @@ footer {
   margin-top: 25px;
   padding: 10px;
   border: solid 1px peachpuff;
-  }
+}
 
  
 .main-header,
@@ -114,61 +115,62 @@ footer {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
- } 
+} 
 
- .main-footer {
+.main-footer {
    margin:25px;
- }
+}
   
  /* Flowers ------------------ */
 
- .flower-img {
+.flower-img {
   width: 200px;
   height: 150px;
   margin: 5px;
   padding: 2px;
   border: solid 1px peachpuff;
   float: center;
- }
+}
 
- .list{
+.list{
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap; 
   margin: auto;
   justify-content: space-around;  
- }
+}
 
- .item {  
+.item {  
+  width: 90%;
   margin: 5px 5px;
   overflow: auto;
   border: solid grey 2px;
- }
+}
 
- #join,
- #flowers {
-   color: Black;
-   font-size: 2em;
- }
+#join,
+#flowers {
+  color: Black;
+  font-size: 2em;
+}
 
   /* Contact ------------------ */
 
-  form {
-    width: 90%;
-    margin: auto;
-  }
+form {
+  width: 90%;
+  margin: auto;
+}
 
-  #name,
-  #email,
-  #file,
-  #information {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+#name,
+#email,
+#file,
+#information {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
-  #information {
-    width: 70%;
-    height: 17em;
-  }
+#information {
+  width: 80%;
+  height: 5em;
+}
 
 /* Layout Styles ------------------ */
 
@@ -198,15 +200,13 @@ footer {
 	.main-header {
 		flex-direction: column;
 		align-items: center;
-  }
+  }  
   
+  .item,
   .col {
     flex: 1;
-  }
+  }  
 
-  .columns {
-    flex-wrap: wrap;
-  }
 }
 
 @media (min-width: 1025px) {
@@ -223,6 +223,11 @@ footer {
   .backcover {
     background: url("../img/flower-background--light-cream-floral.jpg");
     background-size: cover;
+  }
+
+  #information {
+    width: 70%;
+    height: 17em;
   }
 
 } 
