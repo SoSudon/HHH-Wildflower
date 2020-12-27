@@ -172,6 +172,15 @@ form {
   height: 5em;
 }
 
+#error_message {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: large;
+  color: rgb(252, 10, 10);
+}
+
+
+
 /* Layout Styles ------------------ */
 
 .clearfix::after {
