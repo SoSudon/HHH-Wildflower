@@ -1,7 +1,7 @@
 # HHH Wildflower 
 
 ## Description 
-### This website is for finding, identifying, and knowing flower around me and you.
+### Hoosier Homeland Horticlture (HHH) is a website designed to help identify native wildflowers in Southern Indiana and what seasons they bloom.  When I moved out to contury side, I found a lot of beautiful native wildflowers I could not identify. Hope this website could help me and other people to join and enjoy find out Wildflower aroud us. 
 
 ## Requirements
 - Mobile First 
